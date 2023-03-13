@@ -10,6 +10,7 @@ struct sorted_list
 {
 	list_elem* first = nullptr;
 	list_elem* last  = nullptr;
+	int length = 0;
 };
 
 void add(sorted_list*& list, int value);
