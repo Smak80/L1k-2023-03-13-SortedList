@@ -13,8 +13,8 @@ struct sorted_list
 	int length = 0;
 };
 
-void add(sorted_list*& list, int value);
-bool get(sorted_list* list, int index, int& value);
-bool contains(sorted_list* list, int value);
-bool remove_all(sorted_list*& list, int value);
-void clear(sorted_list*& list);
+void add(sorted_list& list, int value);
+bool get(sorted_list list, int index, int& value);
+bool contains(sorted_list list, int value);
+bool remove_all(sorted_list& list, int value);
+void clear(sorted_list& list);
